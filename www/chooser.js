@@ -1,5 +1,5 @@
 module.exports = {
-    getFiles: function (accept, successCallback, failureCallback) {
+    getFile: function (accept, successCallback, failureCallback) {
         var result = new Promise(function (resolve, reject) {
             cordova.exec(
                 function (json) {
